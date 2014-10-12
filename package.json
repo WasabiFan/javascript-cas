@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "grunt": "~0.4.1",
-    "jison": "~0.4.2",
+    "jison": "0.4.10",
     "grunt-contrib-uglify": "*",
     "grunt-contrib-concat": "*",
     "grunt-browserify2": "~0.1.6",

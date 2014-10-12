@@ -130,6 +130,12 @@ describe($('x \\in \\Rational'), function () {
             m.s('x-shader/x-fragment');
         });
     });
+	describe($('4 ^ x'), function () {
+		it('evaluates correctly', function () {
+		  var s = M('4^x', {x: 6});
+		  should.be.exactly(4096);
+		});
+    });
     describe($('1 / (x / y)'), function () {
         var n;
         before(function () {
